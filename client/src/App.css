@@ -1,5 +1,14 @@
+body{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  background-color: #F5F5F5 !important;
+}
 .App {
   text-align: center;
+}
+.link{
+  text-decoration: none;
 }
 
 .App-logo {

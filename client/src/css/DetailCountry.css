@@ -1,0 +1,57 @@
+body{
+   padding: 0;
+   margin: 0;
+}
+
+.detailSection{
+   width: 100vw;
+   height: auto;
+   background-color: #333;
+   margin: 0;
+   padding: 0;
+   padding-top: 3rem;
+   padding-bottom: 5rem;
+}
+
+
+.DetailContainer{
+width: 70%;
+height: auto;
+box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+background-color: #333;
+border-radius: 1rem;
+margin: 0 auto;
+color: white;
+padding-bottom:6rem;
+padding-top: 3rem;
+}
+
+.imgFlag{
+   width: 40%;
+   height: 25%;
+   
+   border-radius: 0.5rem;
+   margin: 1rem auto;
+   box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+}
+
+.textoDetail{
+    font-size: 1.2rem !important;
+}
+.activityContainer{
+   width: 80%;
+  margin: 3rem auto 4rem auto;
+   height: auto;
+   display: grid;
+   grid-template-columns: auto auto auto;
+
+   gap: 5rem;
+}
+.activity{
+   width: 80%;
+    background-color: white;
+    color: black;
+   border-radius: 1rem;
+   padding: 1rem;
+   box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+}

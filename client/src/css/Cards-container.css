@@ -1,0 +1,37 @@
+.cards-container{
+   width: 100%;
+   height: auto;
+   background-color: white;
+   padding-top: 3rem;
+   }
+ .cards-container .grid{
+   height: auto;
+   width: 80%;
+   margin: 0 auto;
+   display:  grid;
+   grid-template-columns:  auto auto auto auto auto;
+   
+}
+@media (max-width: 980px){
+  .cards-container .grid{
+    grid-template-columns: auto auto auto ;
+    width: 90%;
+  }
+}
+
+@media (max-width: 800px){
+  .cards-container .grid{
+    grid-template-columns: auto auto auto ;
+    width: 90%;
+  }
+}
+
+
+
+
+@media (max-width: 400px){
+  .cards-container .grid{
+    grid-template-columns: auto ;
+  }
+}
+
